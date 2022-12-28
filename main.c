@@ -7,6 +7,7 @@
 #include "process4.h"
 #include "process5.h"
 #include "process6.h"
+#include "process7.h"
 int* input(int* num)
 {
     int i,n;
@@ -60,6 +61,7 @@ int main() {
     if(flag == 4) process4();
     if(flag == 5) process5("KIDAU STEP LECHU");
     if(flag == 6) process6("1 12 123 1234 12345");//ZXC OTLETAET OT RASKATA SHADOWRAZE
+    if(flag == 7) process7("ZXC OTLETAET OT RASKATA SHADOWRAZE");//
     output(array, size);
     free(array);
     return 0;

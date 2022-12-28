@@ -1,5 +1,6 @@
 #include "process2.h"
 #include <stdlib.h>
+
 void process2(int **array, int *size){
     int col = *size;
     if (col != 0) {

@@ -9,6 +9,7 @@ void process(int **array, int *size) {
                 for (int k = i; k < col - 1; k++) {
                     (*array)[k] = (*array)[k + 1];
                 }
+
                 (*array) = realloc(*array, (col - 1)* sizeof(int));
                 col--;
                 i--;

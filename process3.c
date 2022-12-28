@@ -1,6 +1,7 @@
 #include "process3.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 void process3(int **array, int *size) {
     int col = *size;
     if (col != 0) {
