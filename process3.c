@@ -6,12 +6,14 @@ void process3(int **array, int *size) {
     if (col != 0) {
         for (int i = 0; i < col; i++) {
             for (int j = i + 1; j < col; j++) {
-                if ((*array[i]) == (*array[j])) {
+                if ((*array)[i] == (*array)[j]) {
                     col--;
-                    for (int k = i; k < col - 1; k++) {
+                    for (int k = j; k < col; k++) {
                         (*array)[k] = (*array)[k + 1];
                     }
                     (*array) = realloc(*array, col * sizeof(int));
+                    i--;
+                    j--;
                 }
             }
 
