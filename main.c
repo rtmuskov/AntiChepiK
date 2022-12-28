@@ -4,6 +4,8 @@
 #include "process.h"
 #include "process2.h"
 #include "process3.h"
+#include "process4.h"
+#include "process5.h"
 int* input(int* num)
 {
     int i,n;
@@ -54,6 +56,8 @@ int main() {
     if(flag == 1) process(&array, &size);
     if(flag == 2) process2(&array, &size);
     if(flag == 3) process3(&array, &size);
+    if(flag == 4) process4();
+    if(flag == 5) process5("Suck MY Dick");
     output(array, size);
     free(array);
     return 0;
