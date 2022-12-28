@@ -1,0 +1,3 @@
+C:/Users/Konstantin/CLionProjects/AntiChepiK/cmake-build-debug/CMakeFiles/AntiChepiK.dir
+C:/Users/Konstantin/CLionProjects/AntiChepiK/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Konstantin/CLionProjects/AntiChepiK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
