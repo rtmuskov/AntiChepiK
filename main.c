@@ -3,6 +3,7 @@
 #include <time.h>
 #include "process.h"
 #include "process2.h"
+#include "process3.h"
 int* input(int* num)
 {
     int i,n;
@@ -47,12 +48,12 @@ int main() {
     srand(time(NULL));
     int size;
     int flag = 0;
-    int *array = input(&size);
+    int *array = input2(&size);
     printf("Printed number func: ");
     scanf("%d", &flag);
-    printf("Printed mass: \n");
     if(flag == 1) process(&array, &size);
     if(flag == 2) process2(&array, &size);
+    if(flag == 3) process3(&array, &size);
     output(array, size);
     free(array);
     return 0;

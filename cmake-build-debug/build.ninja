@@ -67,6 +67,12 @@ build CMakeFiles/AntiChepiK.dir/process2.c.obj: C_COMPILER__AntiChepiK_Debug C$:
   OBJECT_DIR = CMakeFiles\AntiChepiK.dir
   OBJECT_FILE_DIR = CMakeFiles\AntiChepiK.dir
 
+build CMakeFiles/AntiChepiK.dir/process3.c.obj: C_COMPILER__AntiChepiK_Debug C$:/Users/Konstantin/CLionProjects/AntiChepiK/process3.c || cmake_object_order_depends_target_AntiChepiK
+  DEP_FILE = CMakeFiles\AntiChepiK.dir\process3.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\AntiChepiK.dir
+  OBJECT_FILE_DIR = CMakeFiles\AntiChepiK.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AntiChepiK
@@ -75,7 +81,7 @@ build CMakeFiles/AntiChepiK.dir/process2.c.obj: C_COMPILER__AntiChepiK_Debug C$:
 #############################################
 # Link the executable AntiChepiK.exe
 
-build AntiChepiK.exe: C_EXECUTABLE_LINKER__AntiChepiK_Debug CMakeFiles/AntiChepiK.dir/main.c.obj CMakeFiles/AntiChepiK.dir/process.c.obj CMakeFiles/AntiChepiK.dir/process2.c.obj
+build AntiChepiK.exe: C_EXECUTABLE_LINKER__AntiChepiK_Debug CMakeFiles/AntiChepiK.dir/main.c.obj CMakeFiles/AntiChepiK.dir/process.c.obj CMakeFiles/AntiChepiK.dir/process2.c.obj CMakeFiles/AntiChepiK.dir/process3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AntiChepiK.dir
